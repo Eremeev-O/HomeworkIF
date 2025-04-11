@@ -6,8 +6,7 @@ public class Main {
         int age = 2;
         if ( age >= 18 ) {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
-        }
-        if ( age < 18 ) {
+        }   else {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершеннолетия, нужно немного подождать");
         }
 //Задача №2
@@ -15,8 +14,7 @@ public class Main {
         int temperature = 1;
         if ( temperature < 5 ) {
             System.out.println("На улице " + temperature + " градусов, нужно надеть шапку");
-        }
-        if ( temperature >= 5 ) {
+        }   else {
             System.out.println("На улице " + temperature + " градусов, можно идти без шапки");
         }
 //Задача №3
@@ -24,8 +22,7 @@ public class Main {
         int speed = 50;
         if ( speed > 60 ) {
             System.out.println("Если скорость " + speed + ", то придется заплатить штраф");
-        }
-        if ( speed <= 60 ) {
+        }   else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
 //Задача №4
@@ -73,7 +70,7 @@ public class Main {
         System.out.println("Задача №7");
         int one = 70;
         int two = 55;
-        int three = 145;
+        int three = 44;
         if ( one > two && one > three ) {
             System.out.println("Максимальное число " + one);
         } else {
